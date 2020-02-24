@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+caption {
+	display: none;
+}
+
+col:first-child {
+	background-color: blue;
+}
+
+col:last-child {
+	background-color: purple;
+}
+
+table {
+	border: 1px solid red;
+	border-collapse: collapse;
+}
+
+th {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: left;
+}
+
+th, td {
+	width: 150px;
+}
+
+tbody tr:last-child td:last-child {
+	background-color: yellow;
+}
+
+tfoot td:nth-child(2) {
+	background-color: aqua;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: gray;
+}
+
+
+
+
+
+
+
+
